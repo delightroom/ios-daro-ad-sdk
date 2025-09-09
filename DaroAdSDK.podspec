@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/delightroom/ios-daro-ad-sdk'
   s.license          = { :type => 'Commercial', :text => 'Copyright 2025 Delightroom. All rights reserved.' }
   s.author           = { 'Delightroom' => 'dev@delightroom.com' }
-  s.source           = { :git => 'https://github.com/delightroom/ios-daro-ad-sdk.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/delightroom/ios-daro-ad-sdk.git', :tag => 'DaroAdSDK-1.0.0' }
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
