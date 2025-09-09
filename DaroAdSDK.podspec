@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DaroAdSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'DaroAdSDK for iOS'
   s.description      = <<-DESC
     DaroAdSDK is a framework for Daro Ad SDK.
@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
   
   s.frameworks = 'UIKit', 'Foundation', 'WebKit', 'AVFoundation'
   s.weak_frameworks = 'AppTrackingTransparency'
+  
+
   
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386',

@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uop3jx0vuJqOFRjijL+iAD4fDvc=
+		mKptW5uV8NM11jq+Vf1j3tIo4gY=
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,11 +50,7 @@
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GsTOtwHWv5yRzvFxlNXZGmMsUM4=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		LhMGISBgJKyzIX+nXBsaJg3e6/0=
+		O6hSjXyz5L9/CNv7HekwsdKJ73o=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -98,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			77R8TFJLi0HNecp++3vD2qxa8ZKVv+x2VjLK4L6NPKY=
+			/Dz+V70tqV74UPUhnE3mmLfSh2ncScJW5qtxxBwqksw=
 			</data>
 		</dict>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,14 +129,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ef3mHgm/ai/euF+KLkcW2sixxNVnaKvcxqKiLzTQr9M=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wHm08RkYJlm0aW2Br/KMuWEgPW68xUxnxGOuioOU9wY=
+			J4C3WD5JLie1a2/KrbZiN32EyqxkNA5eABkMVLuTYNQ=
 			</data>
 		</dict>
 	</dict>
