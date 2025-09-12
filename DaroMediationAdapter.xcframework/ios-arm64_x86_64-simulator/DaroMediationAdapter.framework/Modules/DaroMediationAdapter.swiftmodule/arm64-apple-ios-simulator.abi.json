@@ -1,0 +1,994 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DaroMediationAdapter",
+    "printedName": "DaroMediationAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "DaroAdSDK",
+        "printedName": "DaroAdSDK",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DaroAdapterInfo",
+        "printedName": "DaroAdapterInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20DaroMediationAdapter0aC4InfoV7versionSSvpZ",
+            "mangledName": "$s20DaroMediationAdapter0aC4InfoV7versionSSvpZ",
+            "moduleName": "DaroMediationAdapter",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20DaroMediationAdapter0aC4InfoV7versionSSvgZ",
+                "mangledName": "$s20DaroMediationAdapter0aC4InfoV7versionSSvgZ",
+                "moduleName": "DaroMediationAdapter",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20DaroMediationAdapter0aC4InfoV4nameSSvpZ",
+            "mangledName": "$s20DaroMediationAdapter0aC4InfoV4nameSSvpZ",
+            "moduleName": "DaroMediationAdapter",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20DaroMediationAdapter0aC4InfoV4nameSSvgZ",
+                "mangledName": "$s20DaroMediationAdapter0aC4InfoV4nameSSvgZ",
+                "moduleName": "DaroMediationAdapter",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20DaroMediationAdapter0aC4InfoV",
+        "mangledName": "$s20DaroMediationAdapter0aC4InfoV",
+        "moduleName": "DaroMediationAdapter",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "DaroAdSDK",
+        "printedName": "DaroAdSDK",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "DaroAdSDK",
+        "printedName": "DaroAdSDK",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "DaroAdSDK",
+        "printedName": "DaroAdSDK",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "DaroAdSDK",
+        "printedName": "DaroAdSDK",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "DaroMediationAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DaroLogLevel",
+        "printedName": "DaroLogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DaroMediationAdapter.DaroLogLevel.Type) -> DaroMediationAdapter.DaroLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DaroLogLevel",
+                    "printedName": "DaroMediationAdapter.DaroLogLevel",
+                    "usr": "s:20DaroMediationAdapter0A8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DaroMediationAdapter.DaroLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DaroLogLevel",
+                        "printedName": "DaroMediationAdapter.DaroLogLevel",
+                        "usr": "s:20DaroMediationAdapter0A8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20DaroMediationAdapter0A8LogLevelO4infoyA2CmF",
+            "mangledName": "$s20DaroMediationAdapter0A8LogLevelO4infoyA2CmF",
+            "moduleName": "DaroMediationAdapter"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DaroMediationAdapter.DaroLogLevel.Type) -> DaroMediationAdapter.DaroLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DaroLogLevel",
+                    "printedName": "DaroMediationAdapter.DaroLogLevel",
+                    "usr": "s:20DaroMediationAdapter0A8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DaroMediationAdapter.DaroLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DaroLogLevel",
+                        "printedName": "DaroMediationAdapter.DaroLogLevel",
+                        "usr": "s:20DaroMediationAdapter0A8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20DaroMediationAdapter0A8LogLevelO5debugyA2CmF",
+            "mangledName": "$s20DaroMediationAdapter0A8LogLevelO5debugyA2CmF",
+            "moduleName": "DaroMediationAdapter"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DaroMediationAdapter.DaroLogLevel.Type) -> DaroMediationAdapter.DaroLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DaroLogLevel",
+                    "printedName": "DaroMediationAdapter.DaroLogLevel",
+                    "usr": "s:20DaroMediationAdapter0A8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DaroMediationAdapter.DaroLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DaroLogLevel",
+                        "printedName": "DaroMediationAdapter.DaroLogLevel",
+                        "usr": "s:20DaroMediationAdapter0A8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20DaroMediationAdapter0A8LogLevelO5erroryA2CmF",
+            "mangledName": "$s20DaroMediationAdapter0A8LogLevelO5erroryA2CmF",
+            "moduleName": "DaroMediationAdapter"
+          },
+          {
+            "kind": "Var",
+            "name": "fault",
+            "printedName": "fault",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DaroMediationAdapter.DaroLogLevel.Type) -> DaroMediationAdapter.DaroLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DaroLogLevel",
+                    "printedName": "DaroMediationAdapter.DaroLogLevel",
+                    "usr": "s:20DaroMediationAdapter0A8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DaroMediationAdapter.DaroLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DaroLogLevel",
+                        "printedName": "DaroMediationAdapter.DaroLogLevel",
+                        "usr": "s:20DaroMediationAdapter0A8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20DaroMediationAdapter0A8LogLevelO5faultyA2CmF",
+            "mangledName": "$s20DaroMediationAdapter0A8LogLevelO5faultyA2CmF",
+            "moduleName": "DaroMediationAdapter"
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DaroMediationAdapter.DaroLogLevel.Type) -> DaroMediationAdapter.DaroLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DaroLogLevel",
+                    "printedName": "DaroMediationAdapter.DaroLogLevel",
+                    "usr": "s:20DaroMediationAdapter0A8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DaroMediationAdapter.DaroLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DaroLogLevel",
+                        "printedName": "DaroMediationAdapter.DaroLogLevel",
+                        "usr": "s:20DaroMediationAdapter0A8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20DaroMediationAdapter0A8LogLevelO7warningyA2CmF",
+            "mangledName": "$s20DaroMediationAdapter0A8LogLevelO7warningyA2CmF",
+            "moduleName": "DaroMediationAdapter"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DaroMediationAdapter.DaroLogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DaroLogLevel",
+                    "printedName": "DaroMediationAdapter.DaroLogLevel",
+                    "usr": "s:20DaroMediationAdapter0A8LogLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20DaroMediationAdapter0A8LogLevelO8rawValueACSgs5UInt8V_tcfc",
+            "mangledName": "$s20DaroMediationAdapter0A8LogLevelO8rawValueACSgs5UInt8V_tcfc",
+            "moduleName": "DaroMediationAdapter",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20DaroMediationAdapter0A8LogLevelO8rawValues5UInt8Vvp",
+            "mangledName": "$s20DaroMediationAdapter0A8LogLevelO8rawValues5UInt8Vvp",
+            "moduleName": "DaroMediationAdapter",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20DaroMediationAdapter0A8LogLevelO8rawValues5UInt8Vvg",
+                "mangledName": "$s20DaroMediationAdapter0A8LogLevelO8rawValues5UInt8Vvg",
+                "moduleName": "DaroMediationAdapter",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20DaroMediationAdapter0A8LogLevelO",
+        "mangledName": "$s20DaroMediationAdapter0A8LogLevelO",
+        "moduleName": "DaroMediationAdapter",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "UInt8",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DaroLogger",
+        "printedName": "DaroLogger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setLogLevel",
+            "printedName": "setLogLevel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DaroLogLevel",
+                "printedName": "DaroMediationAdapter.DaroLogLevel",
+                "usr": "s:20DaroMediationAdapter0A8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20DaroMediationAdapter0A6LoggerV11setLogLevelyyAA0afG0OFZ",
+            "mangledName": "$s20DaroMediationAdapter0A6LoggerV11setLogLevelyyAA0afG0OFZ",
+            "moduleName": "DaroMediationAdapter",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20DaroMediationAdapter0A6LoggerV4infoyySSFZ",
+            "mangledName": "$s20DaroMediationAdapter0A6LoggerV4infoyySSFZ",
+            "moduleName": "DaroMediationAdapter",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20DaroMediationAdapter0A6LoggerV5debugyySSFZ",
+            "mangledName": "$s20DaroMediationAdapter0A6LoggerV5debugyySSFZ",
+            "moduleName": "DaroMediationAdapter",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20DaroMediationAdapter0A6LoggerV5erroryySSFZ",
+            "mangledName": "$s20DaroMediationAdapter0A6LoggerV5erroryySSFZ",
+            "moduleName": "DaroMediationAdapter",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fault",
+            "printedName": "fault(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20DaroMediationAdapter0A6LoggerV5faultyySSFZ",
+            "mangledName": "$s20DaroMediationAdapter0A6LoggerV5faultyySSFZ",
+            "moduleName": "DaroMediationAdapter",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "warning",
+            "printedName": "warning(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20DaroMediationAdapter0A6LoggerV7warningyySSFZ",
+            "mangledName": "$s20DaroMediationAdapter0A6LoggerV7warningyySSFZ",
+            "moduleName": "DaroMediationAdapter",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "devLog",
+            "printedName": "devLog(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20DaroMediationAdapter0A6LoggerV6devLogyySSFZ",
+            "mangledName": "$s20DaroMediationAdapter0A6LoggerV6devLogyySSFZ",
+            "moduleName": "DaroMediationAdapter",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20DaroMediationAdapter0A6LoggerV",
+        "mangledName": "$s20DaroMediationAdapter0A6LoggerV",
+        "moduleName": "DaroMediationAdapter",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/DaroAdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 7,
+      "value": "\"1.0.2\""
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/DaroAdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 22,
+      "value": "\"DaroMediationAdapter\""
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/DaroAdmobCustomEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/Native\/DaroCustomEventNative.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5614,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/Utils\/DaroMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/Utils\/DaroMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/Utils\/DaroMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 3,
+      "value": "103"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/Utils\/DaroMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 3,
+      "value": "104"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/Utils\/DaroMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 311,
+      "length": 3,
+      "value": "105"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/Utils\/DaroMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 340,
+      "length": 3,
+      "value": "106"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/Utils\/DaroMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 3,
+      "value": "107"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/Utils\/DaroMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 407,
+      "length": 3,
+      "value": "108"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdMobMediation\/Sources\/Adapter\/Utils\/DaroMediationError.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 26,
+      "value": "\"com.daro.mediation.error\""
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdSDK\/Sources\/DaroLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 83,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdSDK\/Sources\/DaroLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 102,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdSDK\/Sources\/DaroLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 121,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdSDK\/Sources\/DaroLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 141,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdSDK\/Sources\/DaroLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 163,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdSDK\/Sources\/DaroLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 906,
+      "length": 17,
+      "value": "\"com.daro.DaroAd\""
+    },
+    {
+      "filePath": "\/Users\/finn\/Developer\/daroX-iOS\/Submodules\/daro-ad-sdk-ios\/Projects\/DaroAdSDK\/Sources\/DaroLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 8,
+      "value": "\"DaroAd\""
+    }
+  ]
+}
