@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source           = { :http => "https://github.com/delightroom/ios-daro-ad-sdk/releases/download/1.0.2/DaroAdSDK.xcframework.zip" }
 
   s.ios.deployment_target = '13.0'
-  s.swift_version = '5.0'
+  s.swift_version = '5.7'
   
   s.vendored_frameworks = 'DaroAdSDK.xcframework'
   s.static_framework = true
