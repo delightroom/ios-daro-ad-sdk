@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DaroMediationAdapter'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'DaroMediationAdapter for iOS'
   s.description      = <<-DESC
     DaroMediationAdapter is a framework for Daro Ad SDK.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/delightroom/ios-daro-ad-sdk'
   s.license          = { :type => 'Commercial', :text => 'Copyright 2025 Delightroom. All rights reserved.' }
   s.author           = { 'Delightroom' => 'dev@delightroom.com' }
-  s.source           = { :http => "https://github.com/delightroom/ios-daro-ad-sdk/releases/download/1.0.5/DaroMediationAdapter.xcframework.zip" }
+  s.source           = { :http => "https://github.com/delightroom/ios-daro-ad-sdk/releases/download/1.0.6/DaroMediationAdapter.xcframework.zip" }
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.7'
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.weak_frameworks = 'AppTrackingTransparency'
   
   s.dependency "Google-Mobile-Ads-SDK", "12.2.0"
-  s.dependency "DaroAdSDK", "~> 1.0.5"
+  s.dependency "DaroAdSDK", "~> 1.0.6"
   
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386',
