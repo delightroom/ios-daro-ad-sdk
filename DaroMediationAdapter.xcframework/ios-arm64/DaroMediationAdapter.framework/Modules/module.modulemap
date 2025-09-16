@@ -1,4 +1,0 @@
-framework module DaroMediationAdapter {
-  header "DaroMediationAdapter-Swift.h"
-  requires objc
-}
