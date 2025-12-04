@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DaroAdSDK'
-  s.version          = '1.0.12'
+  s.version          = '1.0.13'
   s.summary          = 'DaroAdSDK for iOS'
   s.description      = <<-DESC
     DaroAdSDK is a framework for Daro Ad SDK.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/delightroom/ios-daro-ad-sdk'
   s.license          = { :type => 'Commercial', :text => 'Copyright 2025 Delightroom. All rights reserved.' }
   s.author           = { 'Delightroom' => 'dev@delightroom.com' }
-  s.source           = { :http => "https://github.com/delightroom/ios-daro-ad-sdk/releases/download/1.0.12/DaroAdSDK.xcframework.zip" }
+  s.source           = { :http => "https://github.com/delightroom/ios-daro-ad-sdk/releases/download/1.0.13/DaroAdSDK.xcframework.zip" }
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.7'
