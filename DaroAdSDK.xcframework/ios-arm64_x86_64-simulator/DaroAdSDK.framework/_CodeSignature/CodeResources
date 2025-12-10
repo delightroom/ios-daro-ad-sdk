@@ -6,51 +6,55 @@
 	<dict>
 		<key>Headers/DaroAdSDK-Swift.h</key>
 		<data>
-		VAzX6Hoi3mhPDQHb6IRDeX98hlg=
+		YHQJcIQZSF+vrD/PtrR0TkBay08=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		33fRKu/AEq/My1ISBESRHlL4QnE=
+		vN5OEOIktV8baxCs7hhwvrr9c6k=
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZsQhugcn4AyefQKHTswyKQOQd+A=
+		Lj1m8eAE0wzAyX376SYb9iXXsHM=
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		J4xL5btx16GoU4LiTj8KoHRfHsw=
+		X1SrG6T/WoXEZcO6iz6JtO3NVP8=
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nUr4Es569s3kZdioy4oqRHQ8Geo=
+		cnK9Ke0F4gzsBtrrL35gUoBQ55Q=
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		J4xL5btx16GoU4LiTj8KoHRfHsw=
+		X1SrG6T/WoXEZcO6iz6JtO3NVP8=
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mKptW5uV8NM11jq+Vf1j3tIo4gY=
+		Qs2z8dJEN5ml5gr7TZlqsQaTnYo=
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZsQhugcn4AyefQKHTswyKQOQd+A=
+		Lj1m8eAE0wzAyX376SYb9iXXsHM=
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0VFF2QulUtaV7GbFjHmUqGRIagY=
+		IY7/TYRBLzoQX7ReHb0yq4Dx7Sg=
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		n2RenF1gLcUOUfavBEHgsG/9bcg=
+		aJTRxp4SVJbzsdhVFCCxpg5f458=
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0VFF2QulUtaV7GbFjHmUqGRIagY=
+		IY7/TYRBLzoQX7ReHb0yq4Dx7Sg=
 		</data>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		O6hSjXyz5L9/CNv7HekwsdKJ73o=
+		tju08Om22Jh5Zs/65SPVwG/Lzes=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		LhMGISBgJKyzIX+nXBsaJg3e6/0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -59,77 +63,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q8KxHx/cH/lkRZQ1S3lA1XKI7FUVuq4D2r8JyTXlFFA=
+			NYJrrdUAISeQxTHRD7fHcbDEMSxQpLIuj1e4ViSlhhg=
 			</data>
 		</dict>
 		<key>Modules/DaroAdSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7J1is5cJYdAb/MtT03jod6j3mCO0l9tDZmi7YQT86AM=
+			pa84GpIX9R9WkFqb44//DUFtSrsJF+iXg+IqJ/fMrm8=
 			</data>
 		</dict>
 		<key>Modules/DaroAdSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DLZkR71NqcXItAFHbHvgQFx4vYH7mwRCOqJ1CfsmyIw=
+			2O35yOoFP8jmIqcsSy/QyNd0VCpILpdEBjaIldjSgtU=
 			</data>
 		</dict>
 		<key>Modules/DaroAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kUQaqKRIIBmjCZi8gFwSde53DYn1lsqPjhEWcwXXEek=
+			aIf6IRlu9XereFOGtvsQd/P3SOke1P5PmtrAVc/XkOw=
 			</data>
 		</dict>
 		<key>Modules/DaroAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DLZkR71NqcXItAFHbHvgQFx4vYH7mwRCOqJ1CfsmyIw=
+			2O35yOoFP8jmIqcsSy/QyNd0VCpILpdEBjaIldjSgtU=
 			</data>
 		</dict>
 		<key>Modules/DaroAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Dz+V70tqV74UPUhnE3mmLfSh2ncScJW5qtxxBwqksw=
+			531fZKXP1waCEk9ZswD5K9+7o12yc7sit0De9qZ5gt8=
 			</data>
 		</dict>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7J1is5cJYdAb/MtT03jod6j3mCO0l9tDZmi7YQT86AM=
+			pa84GpIX9R9WkFqb44//DUFtSrsJF+iXg+IqJ/fMrm8=
 			</data>
 		</dict>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BXXx59oNSdP4mLloFQACAZsp4QxWEZLIpk0AHcNnybo=
+			1LbISkvh1WqcSX9M3AXoCAESUCJ+rehPBvFz5DC481U=
 			</data>
 		</dict>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hv5iKBV6+wBANaSeVUXsIX9N4LkRsNdyke2IQ3uSaoA=
+			NAi+bXc7gYpGtwMoJMZ+y2EaXSZ1dcBJQkMdcbFPPT4=
 			</data>
 		</dict>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BXXx59oNSdP4mLloFQACAZsp4QxWEZLIpk0AHcNnybo=
+			1LbISkvh1WqcSX9M3AXoCAESUCJ+rehPBvFz5DC481U=
 			</data>
 		</dict>
 		<key>Modules/DaroAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J4C3WD5JLie1a2/KrbZiN32EyqxkNA5eABkMVLuTYNQ=
+			wFBIBBVmuJvNp3Wi73Mx+aNm+09sue1YnF5Ezosxsx4=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wHm08RkYJlm0aW2Br/KMuWEgPW68xUxnxGOuioOU9wY=
 			</data>
 		</dict>
 	</dict>

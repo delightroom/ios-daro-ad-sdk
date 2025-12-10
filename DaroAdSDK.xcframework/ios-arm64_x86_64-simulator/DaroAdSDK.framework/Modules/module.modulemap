@@ -1,0 +1,4 @@
+framework module DaroAdSDK {
+  header "DaroAdSDK-Swift.h"
+  requires objc
+}
